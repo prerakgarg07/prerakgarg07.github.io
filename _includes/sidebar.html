@@ -7,15 +7,15 @@
         {% endunless %}
         {{ site.title }}
       </a>
-    </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
+     </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
+     <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <img src='{{"/public/icon.jpg" | absolute_url}}'> <!-- **Tag Insertion, like this**-->   
     <p class="lead">{{ site.description }}</p>
   </header>
   {% include sidebar-nav-links.html %}
-
-  {% if site.version %}
-    <span class="site-version">Currently v{{ site.version }}</span>
-  {% endif %}
-
   {% include sidebar-icon-links.html %}
-  {% include copyright.html %}
 </div>
