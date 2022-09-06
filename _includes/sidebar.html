@@ -1,5 +1,5 @@
 <div id="sidebar">
-  <img src='{{"/public/icon.jpg" | absolute_url}}' border-radius: 50% /> <!-- **Tag Insertion, like this**-->   
+  <img class="profile_pic" src='{{"/public/icon.jpg" | absolute_url}}'/> <!-- **Tag Insertion, like this**-->   
   <header>
     <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
       <a href="{{ "/" | relative_url }}">
