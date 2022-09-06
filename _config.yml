@@ -4,8 +4,8 @@ highlighter:      rouge
 
 # Setup
 title:            Prerak Garg
-tagline:          'A Jekyll theme'
-description:      'I am final year astronomy PhD candidate at University of Florida. I work on modeling nebular line emission in galaxy formation simulations.'
+tagline:          'Prerak Garg'
+description:      'PhD candidate at University of Florida <br> <a href="http://"prerakgarg@ufl.edu target="_blank">prerakgarg@ufl.edu</a>'
 url:              https://prerakgarg07.github.io/
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
