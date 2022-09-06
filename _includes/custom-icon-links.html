@@ -1,1 +1,11 @@
 <!-- Optional additional links to insert for icons links -->
+<nav id="sidebar-icon-links">
+  {% if site.hydeout.repo %}
+    <a id="github-link"
+       class="icon" title="Github Project" aria-label="Github Project"
+       href="{{https://github.com/prerakgarg07}}">
+      {% include svg/github.svg %}
+    </a>
+  {% endif %}
+  {% include custom-icon-links.html %}
+</nav>
