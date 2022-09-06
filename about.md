@@ -2,6 +2,9 @@
 layout: page
 title: About me
 sidebar_link: true
+permalink: /
+redirect_from:
+  - /about
 ---
 
 <p class="message">
