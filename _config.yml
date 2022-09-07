@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Prerak Garg
 tagline:          'Prerak Garg'
-description:      'PhD candidate at University of Florida <br> <a href="http://"prerakgarg@ufl.edu target="_blank">prerakgarg@ufl.edu</a>'
+description:      'PhD candidate at University of Florida <br> <center><a href="http://"prerakgarg@ufl.edu target="_blank">prerakgarg@ufl.edu</a></center>'
 url:              https://prerakgarg07.github.io/
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
