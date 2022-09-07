@@ -11,8 +11,7 @@ Full list of my publications can be found <a href="https://orcid.org/0000-0002-5
 <p class="message">
 <b>First Author Papers:</b>
 <br>
-<b>&#x2022; The BPT Diagram in Cosmological Galaxy Formation Simulations: Understand-
-ing the Physics Driving Offsets at High Redshift</b>
+<b>&#x2022; The BPT Diagram in Cosmological Galaxy Formation Simulations: Understanding the Physics Driving Offsets at High Redshift</b>
 <br>
 <b>Prerak Garg</b>, Desika Narayanan, et al., APJ, Volume 926, Number 1, February 2022
 <br><br>
