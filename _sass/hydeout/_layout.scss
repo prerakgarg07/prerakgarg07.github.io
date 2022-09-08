@@ -121,6 +121,7 @@ body {
 
   header ~ nav {
     display: flex;
+    flex-direction: row ;
   }
 
   // Slightly more bottom padding to compensate for heading not match 100% of
