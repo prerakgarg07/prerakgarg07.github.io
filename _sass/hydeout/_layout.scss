@@ -278,7 +278,9 @@ body {
 }
 
 #sidebar-nav-links {
-  flex-flow: row wrap;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(6, auto);
 }
 
 #sidebar-icon-links {
