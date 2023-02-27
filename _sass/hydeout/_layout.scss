@@ -1,13 +1,26 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@prerakgarg07 
+fongandrew
+/
+hydeout
+Public
+Fork your own copy of fongandrew/hydeout
+Code
+Issues
 /*
   Layout
-
   Styles for managing the structural hierarchy of the site.
   Hydeout features the large colored sidebar from Hyde that houses the
   site name, intro, and "footer" content. Sidebar is on top of content on
   mobile and expands into sidebar on larger width displays.
-
   Sidebar CSS assumes HTML looks like this for post pages:
-
     body
     > #sidebar
       > header (primary sidebar content -- i.e. title)
@@ -16,7 +29,6 @@
     > .container
       > h1 (non-home page)
       > .content
-
   Basic approach is to color in body, make sidebar background transparent,
   and then fill in the .container or .content elements depending on how far
   we want the sidebar or header to stretch.
@@ -121,7 +133,6 @@ body {
 
   header ~ nav {
     display: flex;
-    flex-direction: row ;
   }
 
   // Slightly more bottom padding to compensate for heading not match 100% of
@@ -278,9 +289,7 @@ body {
 }
 
 #sidebar-nav-links {
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-rows: repeat(6, auto);
+  flex-flow: column nowrap;
 }
 
 #sidebar-icon-links {
@@ -290,8 +299,8 @@ body {
   max-width: 100%;
 
   @media (min-width: $large-breakpoint) {
-//     justify-content: flex-start;
-//     margin-left: -0.25em;
+    justify-content: flex-start;
+    margin-left: -0.25em;
   }
 }
 
@@ -308,7 +317,7 @@ body {
 
 @media print {
   #sidebar {
-//     display: none;
+    display: none;
   }
 
   body {
