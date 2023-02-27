@@ -290,8 +290,8 @@ body {
   max-width: 100%;
 
   @media (min-width: $large-breakpoint) {
-    justify-content: flex-start;
-    margin-left: -0.25em;
+//     justify-content: flex-start;
+//     margin-left: -0.25em;
   }
 }
 
@@ -308,7 +308,7 @@ body {
 
 @media print {
   #sidebar {
-    display: none;
+//     display: none;
   }
 
   body {
